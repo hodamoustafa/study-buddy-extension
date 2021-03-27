@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    /* border-radius: 72px; */
+    background: #a24949;
+    /* box-shadow:  -5px -5px 16px #472020, */
+             /* 5px 5px 16px #fd7272; */
+}
+
+.welcome {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: -0.8px;
+    word-spacing: 0px;
+    color: #f8efef;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    }
