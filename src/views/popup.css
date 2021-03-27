@@ -9,6 +9,8 @@ body {
     background: #a24949;
     /* box-shadow:  -5px -5px 16px #472020, */
              /* 5px 5px 16px #fd7272; */
+    width: 600px; 
+    height:800px;
 }
 
 .welcome {
