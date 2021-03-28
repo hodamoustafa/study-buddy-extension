@@ -8,8 +8,52 @@
     
     <body>     
             <div class="welcome"> schedule a meeting  </div>
+            <div class="blurb"> Fill in your contact information and the topic you would be interested in studying
+            during your meeting! Note: this meeting is only for ONE topic, if you would like to study multiple topics,
+            make sure you schedule multiple meetings.
+
+            </div>
+           
+
+            <label class="info">Full Name </label>
+
+            <input type="text" class="css-input" />
+            <br>
+
+            <label class="info">Email </label>
             
+            <input type="email" class="css-input" />
+            <br>
+
+            <label class="info">Class</label>
             
+            <input type="text" class="css-input" />
+            <br>
+
+            <label class="info">Topic Interested in</label>
+            
+            <div class="select">
+                <select id="topics">
+                    <option value="none">--Select--</option>
+                    <option value="english">English</option>
+                    <option value="math">Math</option>
+                    <option value="physics"> Physics</option>
+                    <option value="chem"> Chem</option>
+                </select>
+                <div class="select_arrow"></div>
+            </div>
+
+            <form>
+                <label class="info">Enter a date and time for your meeting</label>
+                <input id="datetime" type="datetime-local" >
+            </form>
+            
+            <label class="info">Location (indicate whether location/virtual)</label>
+            
+            <input type="text" class="css-input" />
+            <br>
+
+            <br>
             <a href="popup.html" class="buttons">Back</a>
     </body>
 </html>

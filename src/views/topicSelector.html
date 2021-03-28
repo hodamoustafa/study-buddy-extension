@@ -12,15 +12,35 @@
             </div>
 
             <div class="select">
-                <select>
-                    <option>--Select--</option>
-                    <option>Airbender</option>
-                    <option>Codebender</option>
-                    <option>Korra</option>
-                    <option>Hudini's Secret Quran Reading</option>
+                <select id="topics">
+                    <option value="none">--Select--</option>
+                    <option value="english">English</option>
+                    <option value="math">Math</option>
+                    <option value="physics"> Physics</option>
+                    <option value="chem"> Chem</option>
                 </select>
                 <div class="select_arrow"></div>
             </div>
+
+            <p>
+                The value of the option selected is:
+                 <span class="output"></span>
+            </p>
+
+            <button onclick="GetSelectedText()">Get Selected Text</button>
+
+            <script type="text/javascript">
+
+			function GetSelectedText(){
+				selectElement = 
+                    document.querySelector('topics');
+                      
+                    output = selectElement.value;
+  
+                    document.querySelector('.output').textContent = output;
+			}
+
+		</script>
             
             <a href="popup.html" class="buttons">Back</a>
     </body>
