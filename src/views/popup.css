@@ -7,7 +7,7 @@
 body {
     background: #a24949; 
     width: 600px; 
-    height:500px;
+    height:600px;
 }
 
 .welcome {
@@ -167,3 +167,49 @@ ul li:hover > a {color: white; background-color: #555;}
     box-shadow: -1px 0px 2px rgba(66,66,66,.75);
     text-shadow: -2px 0px 13px rgba(66,66,66,.0);
 }
+
+table.meetingTable {
+    border: 1px solid #4C0309;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.meetingTable td, table.meetingTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.meetingTable tbody td {
+    font-size: 13px;
+    color: #18331C;
+  }
+  table.meetingTable thead {
+    background: #600508;
+    background: -moz-linear-gradient(top, #884346 0%, #701e20 66%, #600508 100%);
+    background: -webkit-linear-gradient(top, #884346 0%, #701e20 66%, #600508 100%);
+    background: linear-gradient(to bottom, #884346 0%, #701e20 66%, #600508 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.meetingTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #C63C4F;
+  }
+  table.meetingTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.meetingTable tfoot td {
+    font-size: 14px;
+  }
+  table.meetingTable tfoot .links {
+    text-align: right;
+  }
+  table.meetingTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
