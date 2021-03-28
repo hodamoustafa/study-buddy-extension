@@ -5,17 +5,14 @@
   }
 
 body {
-    /* border-radius: 72px; */
-    background: #a24949;
-    /* box-shadow:  -5px -5px 16px #472020, */
-             /* 5px 5px 16px #fd7272; */
+    background: #a24949; 
     width: 600px; 
-    height:800px;
+    height:500px;
 }
 
 .welcome {
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: -0.8px;
     word-spacing: 0px;
     color: #f8efef;
@@ -25,3 +22,92 @@ body {
     font-variant: normal;
     text-transform: capitalize;
     }
+.blurb {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #f8efef;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+}
+.buttons {
+    all: unset;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    /* border: 0; */
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    object-position: center;
+    background-color: #621528;
+    -webkit-box-shadow: 10px 8px 10px 0 #000000;
+    -moz-box-shadow: 10px 8px 10x 0 #000000;
+    box-shadow: 10px 8px 10px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttons:hover {
+    background: #3D0C0C;
+    border: solid #420913 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 6px 12px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 100px;
+        background: #e6e6e6;
+        color: #5a5757;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #000000;
+            background: #cccccc;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
