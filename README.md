@@ -15,4 +15,4 @@ We are proud of managing to display the information we wanted in a clean and org
 ## What we learned
 We learnt more about extensions and how they interact with the browser. 
 ## What's next for Study Buddy Extension
-Since we did not have a lot of time to fully implement everything we wanted, we hope in the future that we can add more classes for the user to choose from (instead of the default sample class added in the demo), and to refine the display more. 
+Since we did not have a lot of time to fully implement everything we wanted, we hope in the future that we can add more classes for the user to choose from (instead of the default sample class added in the demo), and to refine the display more. Ideally, we would implement backend to store information like list of students interested in such a topic, along with profile information.
