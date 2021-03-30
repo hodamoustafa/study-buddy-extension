@@ -1,5 +1,5 @@
 # study-buddy-extension
- RIEEE The Last Codebender hackathon submission\ 
+ RIEEE The Last Codebender hackathon submission  
  [Devpost link](https://devpost.com/software/study-buddy-extension) 
 
 
